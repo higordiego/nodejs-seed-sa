@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-seed-sa",
+  "version": "0.0.1",
+  "homepage": "https://github.com/SaTecnologia/nodejs-seed-sa",
+  "authors": [
+    "Rogerio Alencar Filho <geriofilho@gmail.com>"
+  ],
+  "description": "Seed para projetos da SA Tecnologia com nodejs",
+  "main": "app.js",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

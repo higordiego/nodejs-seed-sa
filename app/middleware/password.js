@@ -15,7 +15,7 @@ function validateHash(hash, password) {
 }
  
 function generateSalt(len) {
-  var set = '0123456789abcdefghijklmnopqurstGHIJKLMNOPQURSTUVWXYZ',
+  var set = '0123456789abcdefghijklmnopqurstuvwxyzABCDEFGHIJKLMNOPQURSTUVWXYZ',
       setLen = set.length,
       salt = '';
   for (var i = 0; i < len; i++) {

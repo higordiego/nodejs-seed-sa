@@ -1,7 +1,7 @@
 module.exports = {
 	loginSistema: function(req, res, next) {
 		if(!req.isAuthenticated()) {
-			return res.redirect('/login');
+			return res.redirect('/');
 		}
 		return next();
 	},
@@ -9,8 +9,8 @@ module.exports = {
 		if(req.isAuthenticated()) {
 			return next();
 		} else {
-			res.send(403);
+			console.log(req);
+			res.sendStatus(403);
 		}
-		
 	}
 };

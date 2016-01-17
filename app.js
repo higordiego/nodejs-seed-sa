@@ -49,7 +49,6 @@ app.use(expressSession({
     resave: false,
     cookie: {
         httpOnly: true,
-        secure: true
     }
   })
 );

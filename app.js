@@ -124,7 +124,7 @@ passport.deserializeUser(function(user, done){
 load('models',{cwd: 'app'})
 .then('controllers')
 .then('routes')
-//.then('config')
+.then('config')
 .into(app);
 
 
